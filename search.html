@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Results</title>
+  <style>
+    /* Style the table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    /* Style the search bar */
+    input[type=text] {
+      width: 100%;
+      max-width: 400px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type=text]:focus {
+      border: 2px solid #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <h1>Search Results</h1>
+  <form>
+    <label for="searchInput">Search:</label>
+    <input type="text" id="searchInput" name="searchInput">
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>Jane</td>
+        <td>30</td>
+        <td>Female</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>20</td>
+        <td>Male</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
